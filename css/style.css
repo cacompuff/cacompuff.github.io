@@ -4,6 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8202,7 +8203,7 @@ h1, h2, h3, h4, h5,
 .hero-wrap {
   width: 100%;
   height: 850px;
-  position: inherit;
+  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center; }
@@ -8213,14 +8214,14 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: 0;
-    background: #000000; }
+    opacity: .7;
+    background: #fff; }
   .hero-wrap.hero-wrap-2 {
     height: 600px !important;
     position: relative; }
     .hero-wrap.hero-wrap-2 .overlay {
       width: 100%;
-      opacity: .05; }
+      opacity: .5; }
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 600px !important; }
 
@@ -8228,7 +8229,7 @@ h1, h2, h3, h4, h5,
   height: 850px; }
   .slider-text h1 {
     font-size: 28px;
-    color: #000000;
+    color: #000;
     line-height: 1.2;
     font-weight: 200; }
     .slider-text h1 span {
@@ -8252,7 +8253,7 @@ h1, h2, h3, h4, h5,
     .slider-text p strong {
       font-weight: 700; }
       .slider-text p strong a {
-        color: #000000; }
+        color: #000; }
     @media (max-width: 767.98px) {
       .slider-text p {
         font-size: 16px; } }
@@ -9686,3 +9687,29 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.logo-img {
+  width: 100px;
+  height: 100px;}
+  .logo-img:hover {
+    opacity: .7;}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('../fonts/Montserrat/Montserrat-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url('../fonts/Montserrat/Montserrat-Light.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Black;
+  src: url('../fonts/Montserrat/Montserrat-Black.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/Montserrat/Montserrat-Bold.ttf'); 
+}
