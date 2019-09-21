@@ -9713,19 +9713,17 @@ textarea.form-control {
   src: url('../fonts/Montserrat/Montserrat-Bold.ttf'); 
 }
 
-.inscrevase {
+/*.inscrevase {
   width: auto;
   text-align: center;
-  margin: 0 auto;
 }
 
 .inscrevase > a {
   padding: 0.5rem 1rem;
   color: #fff;
   border: 1px solid #1162fb;
-  /*margin-top: 50px;*/
   background: #1162fb;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  border-radius: 2px;}
+  border-radius: 2px;}*/
