@@ -1,12 +1,13 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 05/01/2019 03:24
+  	Creation date: 21/09/2019 16:11
   	*/
 
 @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -29,11 +30,9 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-placeholder:before { content: "\f100"; }
-.flaticon-world:before { content: "\f101"; }
-.flaticon-hotel:before { content: "\f102"; }
-.flaticon-cooking:before { content: "\f103"; }
-.flaticon-guest:before { content: "\f104"; }
-.flaticon-idea:before { content: "\f105"; }
-.flaticon-handshake:before { content: "\f106"; }
-.flaticon-chair:before { content: "\f107"; }
+.flaticon-joystick:before { content: "\f100"; }
+.flaticon-code:before { content: "\f101"; }
+.flaticon-favorite:before { content: "\f102"; }
+.flaticon-idea:before { content: "\f103"; }
+.flaticon-chair:before { content: "\f104"; }
+.flaticon-innovation:before { content: "\f105"; }

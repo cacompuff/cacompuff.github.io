@@ -8,6 +8,7 @@
   font-family: "Flaticon";
   src: url("../fonts/flaticon/font/Flaticon.eot");
   src: url("../fonts/flaticon/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon/font/Flaticon.woff2") format("woff2"),
        url("../fonts/flaticon/font/Flaticon.woff") format("woff"),
        url("../fonts/flaticon/font/Flaticon.ttf") format("truetype"),
        url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
@@ -36,12 +37,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-placeholder:before { content: "\f100"; }
-.flaticon-world:before { content: "\f101"; }
-.flaticon-console:before { content: "\f101"; }
-.flaticon-hotel:before { content: "\f102"; }
-.flaticon-cooking:before { content: "\f103"; }
-.flaticon-guest:before { content: "\f104"; }
-.flaticon-idea:before { content: "\f105"; }
-.flaticon-handshake:before { content: "\f106"; }
-.flaticon-chair:before { content: "\f107"; }
+.flaticon-joystick:before { content: "\f100"; }
+.flaticon-code:before { content: "\f101"; }
+.flaticon-favorite:before { content: "\f102"; }
+.flaticon-idea:before { content: "\f103"; }
+.flaticon-chair:before { content: "\f104"; }
+.flaticon-innovation:before { content: "\f105"; }
