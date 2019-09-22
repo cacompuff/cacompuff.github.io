@@ -8285,7 +8285,7 @@ h1, h2, h3, h4, h5,
   #timer .time {
     width: 25%;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 6<div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">00;
     border-left: 1px solid rgba(0, 0, 0, 0.05);
     color: #1162fb; }
     @media (max-width: 991.98px) {
@@ -9713,12 +9713,13 @@ textarea.form-control {
   src: url('../fonts/Montserrat/Montserrat-Bold.ttf'); 
 }
 
-/*.inscrevase {
+.inscrevase {
   width: auto;
   text-align: center;
 }
 
 .inscrevase > a {
+  font-size: 1.2em;
   padding: 0.5rem 1rem;
   color: #fff;
   border: 1px solid #1162fb;
@@ -9726,4 +9727,7 @@ textarea.form-control {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  border-radius: 2px;}*/
+  border-radius: 2px;}
+  .inscrevase > a:hover {
+    color: #000;
+  }
