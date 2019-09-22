@@ -8133,7 +8133,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     left: 0;
     top: 0;
-    margin-top: -130px;
+    margin-top: 0;
     background: #fff !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
@@ -8232,7 +8232,7 @@ h1, h2, h3, h4, h5,
     font-size: 28px;
     color: #000;
     line-height: 1.2;
-    font-weight: 200; }
+    font-weight: 500; }
     .slider-text h1 span {
       font-size: 54px;
       font-weight: 800;
@@ -8249,7 +8249,7 @@ h1, h2, h3, h4, h5,
   .slider-text p {
     font-size: 20px;
     line-height: 1.5;
-    font-weight: 300;
+    font-weight: 500;
     color: rgba(0, 0, 0, 0.8); }
     .slider-text p strong {
       font-weight: 700; }
